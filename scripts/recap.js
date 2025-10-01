@@ -130,3 +130,18 @@ switch (anotherName) {
 // la parola "break" alla fine di ogni caso FINISCE l'esecuzione dello switch
 
 // uno SWITCH spesso si definisce un "sugar coating" sugli if/elseif
+
+// TRUTHY / FALSY
+
+if ('') {
+  console.log('Messaggio spedito!')
+}
+
+// in JS TUTTO è un valore "truthy" (tendente al true) a parte:
+
+// - null
+// - undefined
+// - ''
+// - 0
+// - -0
+// - NaN
